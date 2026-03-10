@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(237, 159, 14);
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    height: 20vh;
+    width: 20vw;
+    background-color: red;
+}
+.box2{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(202, 26, 55);
+}
+.secand{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(59, 57, 57);
+}
+.secand h1{
+    font-weight: 600;
+}
+.box3{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(202, 26, 55);
+}
+.third{
+     height: 100%;
+    width: 100%;
+    background-color: rgb(247, 8, 143);
+   
+    
+
+}
+.box4{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(202, 26, 55);
+}
+.box5{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(55, 26, 202);
+}
+.box6{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(26, 202, 52);
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.part2{
+    display: flex;
+    gap:50px;
+}
+h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:80px;
+    white-space: nowrap;
+    
+}
